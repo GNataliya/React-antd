@@ -1,0 +1,30 @@
+.banner {
+    background-color: #E34140;
+    height: 44px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p, a {
+    color: #FEF5F5;
+    text-align: center;
+    margin: auto;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    padding-left: 2px;
+    display: inline-block;
+}
+
+a:hover {
+    color: #FEF5F5;
+    text-decoration: underline;    
+}
+
+.icon {
+    font-size: 12px;
+}
+

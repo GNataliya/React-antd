@@ -1,0 +1,79 @@
+.body {
+    padding-top: 44px;
+}
+
+.banner {
+    background-color: #FBEDF9;
+    margin-bottom: 10px;
+}
+
+.bannerLink, .proLink, .normalLink {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+    margin: 10px auto;
+}
+
+.bannerText, .proText {
+    margin: 5px auto;
+    max-width: 460px;
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: -.002em;
+    line-height: 1.08349;
+}
+
+.bannerText, .bannerText:hover, .giftLink  {
+    text-decoration: none;
+}
+
+.giftLink, .giftLink:hover {
+    color: #06c;
+    letter-spacing: inherit;
+    font-size: 16px;
+    margin: 10px auto;
+}
+
+.icon {
+    font-size: 12px;
+}
+
+
+
+.pro {
+    background-color: #FBFBFD;
+    margin-bottom: 10px;
+}
+
+.proText {
+    padding-top: 40px;
+}
+
+.pro h3 {
+    color: black;
+    font-size: 24px;
+}
+
+.imgpro {
+    width: 60%;
+    margin-bottom: 
+}
+
+.normal {
+    background-color: #34283C;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
