@@ -1,0 +1,28 @@
+.footer {
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color:  #F5F5F7;
+    margin-top: 10px;
+  }
+
+.footer div, .li {
+    color:  rgb(82, 80, 80);
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.li {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+}

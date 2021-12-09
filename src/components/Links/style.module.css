@@ -1,0 +1,15 @@
+.giftLink, .giftLink:hover {
+    color: #06c;
+    letter-spacing: inherit;
+    font-size: 16px;
+    margin: 10px auto;
+}
+
+.buyLink {
+    padding-left: 15px;
+}
+
+.icon {
+    font-size: 12px;
+}
+

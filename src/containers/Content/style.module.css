@@ -7,10 +7,12 @@
     margin-bottom: 10px;
 }
 
-.bannerLink, .proLink, .normalLink {
+.bannerLink, .proLink, .normalLink,
+.bannerLink:hover, .proLink:hover, .normalLink:hover {
     display: flex;
     flex-direction: column;
     padding: 0;
+    text-decoration: none;
 }
 
 .logo {
@@ -19,17 +21,13 @@
     margin: 10px auto;
 }
 
-.bannerText, .proText {
+.bannerText, .proText, .normalText {
     margin: 5px auto;
     max-width: 460px;
     font-size: 42px;
     font-weight: 600;
     letter-spacing: -.002em;
     line-height: 1.08349;
-}
-
-.bannerText, .bannerText:hover, .giftLink  {
-    text-decoration: none;
 }
 
 .giftLink, .giftLink:hover {
@@ -42,8 +40,6 @@
 .icon {
     font-size: 12px;
 }
-
-
 
 .pro {
     background-color: #FBFBFD;
@@ -59,9 +55,8 @@
     font-size: 24px;
 }
 
-.imgpro {
+.imgpro, .imgair {
     width: 60%;
-    margin-bottom: 
 }
 
 .normal {
@@ -69,11 +64,51 @@
     margin-bottom: 10px;
 }
 
+.normalText{
+    margin-top: 40px;
+    color: white;
+}
 
+.normal h3 {
+    color: #F2B9E1;
+    font-size: 24px;
+    margin-bottom: 0;
+}
 
+.imgNormal {
+    max-width: 90%;
+    margin: 10px auto 0;
+}
 
+.imghome {
+    width: 100%;
+}
 
+.watch {
+    background-color: #F5F5F7;
+}
 
+.book, .airpods, .home, .watch {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    background-color: #FBFBFD;
+    height: 400px;
+}
 
+.book h2, .airpods h2, .home h2, .watch h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
 
+.home h3 {
+    margin: 0;
+}
 
+.airhome {
+    margin:  0 auto 6px auto;
+}
+
+.applewatch {
+    margin: 0 auto 10px auto;
+}

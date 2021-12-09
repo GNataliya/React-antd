@@ -3,11 +3,16 @@ import { RightOutlined } from '@ant-design/icons';
 import { Row, Col } from 'antd';
 
 import Banner from '../../components/Banner';
+import Links from '../../components/Links';
 
 import apple from '../Content/imgs/apple.jpg';
 import banner from '../Content/imgs/banner_pic.jpg';
 import pro from '../Content/imgs/13_pro.jpg';
 import normal from '../Content/imgs/13.jpg';
+import MacBook from '../Content/imgs/MacBook.jpg';
+import airPods from '../Content/imgs/AirPods.jpg';
+import home from '../Content/imgs/HomePod.jpg';
+import watch from '../Content/imgs/watch.jpg';
 
 
 function Main() {
@@ -40,14 +45,7 @@ function Main() {
                      
                     <h2  className={style.proText}>iPhone 13 Pro</h2>
                     <h3 >Oh. So. Pro.</h3>
-                    <div>
-                    <a href="localhost:3000"className={style.giftLink}>Learn more
-                        <RightOutlined className={style.icon}/>
-                    </a>
-                    <a href="localhost:3000"className={style.giftLink}>Buy
-                        <RightOutlined className={style.icon}/>
-                    </a>
-                    </div>
+                    <Links />
                     <div>
                         <img src={pro} alt='item' className={style.imgpro} />
                     </div>
@@ -59,33 +57,68 @@ function Main() {
             <Col span={24} >
                 <a href="localhost:3000" className={style.normalLink}>
                      
-                     <h2  className={style.proText}>iPhone 13 </h2>
-                     <h3 >Your new superpower.</h3>
-                     <div>
-                     <a href="localhost:3000"className={style.giftLink}>Learn more
-                         <RightOutlined className={style.icon}/>
-                     </a>
-                     <a href="localhost:3000"className={style.giftLink}>Buy
-                         <RightOutlined className={style.icon}/>
-                     </a>
-                     </div>
-                     <div>
-                         <img src={normal} alt='item' className={style.imgnormal} />
-                     </div>
+                    <h2  className={style.normalText}>iPhone 13 </h2>
+                    <h3 >Your new superpower.</h3>
+                    <Links />
+                    <div className={style.imgNormal}>
+                        <img src={normal} alt='item' className={style.imgNormal} />
+                    </div>
                  </a>
             </Col>
         </Row>
 
-        {/* <Row gutter={[24, 24]}>
-            <Col span={12} />
-            <Col span={12} />
+        <Row gutter={[10, 10]} >
+            <Col span={12} >
+                <div className={style.book}>
+                    <a href="localhost:3000" className={style.bookLink}> 
+                        <h2  className={style.bookText}>MacBook Pro</h2>
+                        <h3 >Supercharged for pros.</h3>
+                        <Links />
+                        <div className={style.img}>
+                            <img src={MacBook} alt='item' className={style.imgNormal} />
+                        </div>
+                     </a>
+                </div>
+            </Col>
+            <Col span={12}  >
+                <div className={style.airpods}>
+                    <a href="localhost:3000" className={style.bookLink}>
+                        <div className={style.img}>
+                            <img src={airPods} alt='item' className={style.imgair} />
+                        </div>
+                        <h2  className={style.bookText}>AirPods </h2>
+                        <h3 >All-new with Spatial Audio</h3>
+                        <Links />
+                    </a>
+                </div>
+            </Col>
 
-            <Col span={12} />
-            <Col span={12} />
+            <Col span={12}  >
+                <div className={style.home}>
+                    <a href="localhost:3000" className={style.bookLink}>
+                        <h2  className={`${style.bookText} ${style.airhome}`}>AirHome </h2>
+                        <h3 >The best sound.</h3>
+                        <Links />
+                        <div className={style.img}>
+                            <img src={home} alt='item' className={style.imghome} />
+                        </div>
+                    </a>
+                </div>
+            </Col>
+            <Col span={12}  >
+                <div className={style.watch}>
+                    <a href="localhost:3000" className={style.bookLink}>
+                        <h2  className={`${style.bookText} ${style.applewatch}`}>Watch </h2>
+                        <h3 >Introducing our largest display.</h3>
+                        <Links />
+                        <div className={style.img}>
+                            <img src={watch} alt='item' className={style.imghome} />
+                        </div>
+                    </a>
+                </div>
+            </Col>
 
-            <Col span={12} />
-            <Col span={12} />
-        </Row> */}
+        </Row>
 
         </div>
     )
